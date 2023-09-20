@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "watch": "parcel watch src/js/main.js src/css/main.scss  --dist-dir ./assets",
+    "watch": "parcel watch src/js/main.js src/css/main.scss  --dist-dir ./dist",
     "build": "parcel build src/js/main.js src/css/main.scss  --dist-dir ./assets"
   },
   "parcelIgnore": [
