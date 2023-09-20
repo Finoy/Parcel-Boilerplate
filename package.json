@@ -4,7 +4,8 @@
     "build": "parcel build src/js/main.js src/css/main.scss  --dist-dir ./assets"
   },
   "parcelIgnore": [
-    "[images,fonts]/*.*"
+    "images/.+",
+    "fonts/.+"
   ],
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
